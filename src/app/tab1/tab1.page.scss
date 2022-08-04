@@ -1,0 +1,37 @@
+#term {
+  align-items: flex-end;
+  margin-right: -30px;
+}
+
+.tempt {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ion-card-title {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#ex {
+  ion-col {
+    margin-left: -10px;
+    font-size: 22px;
+    font-family: monospace;
+    color: #0000ff;
+  }
+}
+
+ion-row {
+  margin-left: 10px;
+  margin-right: -40px;
+  ion-col {
+    font-size: 18px;
+    font-family: monospace;
+    ion-icon {
+      margin-left: 20px;
+      height: 26px;
+      width: 26px;
+    }
+  }
+}

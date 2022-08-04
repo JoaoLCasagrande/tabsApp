@@ -1,17 +1,81 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Jornal do Tempo
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+
+    <ion-card-header>
+
+      <ion-item>
+      <ion-card-title>Lençóis Paulista</ion-card-title>
+      <ion-icon slot="end" id="term" name="thermometer-outline"></ion-icon>
+      <p slot="end" class="tempt">26°C</p>
+    </ion-item>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-grid>
+        <ion-row id="ex">
+          <ion-col>
+            Data
+          </ion-col>
+          <ion-col>
+            Min/Máx
+          </ion-col>
+          <ion-col>
+            Previsão
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            04/08
+          </ion-col>
+          <ion-col>
+            32°/17°
+          </ion-col>
+          <ion-col>
+            <ion-icon name="partly-sunny-sharp"></ion-icon>
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row>
+          <ion-col>
+            04/08
+          </ion-col>
+          <ion-col>
+            32°/17°
+          </ion-col>
+          <ion-col>
+            <ion-icon name="partly-sunny-sharp"></ion-icon>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            04/08
+          </ion-col>
+          <ion-col>
+            32°/17°
+          </ion-col>
+          <ion-col>
+            <ion-icon name="partly-sunny-sharp"></ion-icon>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+
+    </ion-card-content>
+
+  </ion-card>
+
 </ion-content>
